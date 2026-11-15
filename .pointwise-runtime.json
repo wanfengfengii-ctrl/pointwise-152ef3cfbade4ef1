@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": [
+    ["python3", "-I", "-m", "py_compile", "tiffwindow.py", "tiffgen.py", "verify.py", "demo.py"]
+  ],
+  "verify": [
+    "python3", "-I", "verify.py", "verify"
+  ],
+  "demo": [
+    "python3", "-I", "demo.py"
+  ]
+}
